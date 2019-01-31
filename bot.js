@@ -44,4 +44,4 @@ const Discord = require("discord.js");
                             }
                           }
 });
-gamer.login(kbooshtoken);
+client.login(process.env.BOT_TOKEN);
